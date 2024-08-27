@@ -1,0 +1,19 @@
+[package]
+name = "second-contract"
+version = "0.0.0"
+authors = ["xfactor <xfactor.toml@gmail.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+
+[dependencies.drt-sc]
+version = "0.0.1"
+path = "../../../../../framework/base"
+
+[dev-dependencies.drt-sc-scenario]
+version = "0.0.1"
+path = "../../../../../framework/scenario"
+

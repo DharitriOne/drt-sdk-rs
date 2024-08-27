@@ -1,0 +1,21 @@
+[package]
+name = "rewards-distribution"
+version = "0.0.0"
+authors = ["xfactor <xfactor.toml@gmail.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/rewards_distribution.rs"
+
+[dependencies.drt-sc]
+version = "0.0.1"
+path = "../../../framework/base"
+
+[dependencies.drt-sc-modules]
+version = "0.0.1"
+path = "../../../contracts/modules"
+
+[dev-dependencies.drt-sc-scenario]
+version = "0.0.1"
+path = "../../../framework/scenario"

@@ -1,0 +1,37 @@
+[package]
+name = "drt-sc-snippets"
+version = "0.0.1"
+edition = "2021"
+
+authors = ["DharitriOne <contact@dharitri.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/DharitriOne/drt-sdk-rs"
+homepage = "https://dharitri.com/"
+documentation = "https://docs.dharitri.com/"
+description = "DharitriOne framework for building smart contract interaction snippets"
+keywords = ["dharitri", "blockchain", "contract", "snippets"]
+categories = ["cryptography::cryptocurrencies"]
+
+[dependencies]
+tokio = { version = "1.24", features = ["full"] }
+hex = "0.4"
+base64 = "0.22"
+log = "0.4.17"
+env_logger = "0.11"
+futures = "0.3"
+
+[dependencies.drt-sc-scenario]
+version = "=0.0.1"
+path = "../scenario"
+
+[dependencies.drt-chain-scenario-format]
+version = "0.0.1"
+path = "../../sdk/scenario-format"
+
+[dependencies.drt-sdk]
+version = "=0.0.1"
+path = "../../sdk/core"
+
+[dev-dependencies]
+serde_json = "1.0"

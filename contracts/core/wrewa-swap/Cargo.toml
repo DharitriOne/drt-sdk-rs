@@ -1,0 +1,32 @@
+[package]
+name = "drt-wrewa-swap-sc"
+version = "0.0.1"
+
+authors = [
+    "xfactor <xfactor.toml@gmail.com>",
+    "DharitriOne <contact@dharitri.com>",
+]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/DharitriOne/drt-sdk-rs"
+homepage = "https://dharitri.com/"
+documentation = "https://docs.dharitri.com/"
+description = "DharitriOne Wrapped REWA Smart Contract"
+keywords = ["dharitri", "wasm", "webassembly", "blockchain", "contract"]
+categories = ["no-std", "wasm", "cryptography::cryptocurrencies"]
+edition = "2021"
+
+[lib]
+path = "src/wrewa.rs"
+
+[dependencies.drt-sc]
+version = "0.0.1"
+path = "../../../framework/base"
+
+[dependencies.drt-sc-modules]
+version = "0.0.1"
+path = "../../../contracts/modules"
+
+[dev-dependencies.drt-sc-scenario]
+version = "0.0.1"
+path = "../../../framework/scenario"

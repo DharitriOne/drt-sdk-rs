@@ -1,0 +1,28 @@
+[package]
+name = "drt-sc-derive"
+version = "0.0.1"
+edition = "2021"
+
+authors = ["xfactor <xfactor.toml@gmail.com>", "DharitriOne <contact@dharitri.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/DharitriOne/drt-sdk-rs"
+homepage = "https://dharitri.com/"
+documentation = "https://docs.dharitri.com/"
+description = "DharitriOne smart contract API procedural macros"
+keywords = ["dharitri", "blockchain", "contract"]
+categories = ["cryptography::cryptocurrencies", "development-tools::procedural-macro-helpers"]
+
+[dependencies]
+proc-macro2 = "=1.0.86"
+quote = "=1.0.36"
+syn = "=2.0.72"
+hex = "=0.4.3"
+radix_trie = "=0.2.1"
+
+[features]
+default = ["syn/full", "syn/parsing", "syn/extra-traits"]
+
+[lib]
+name = "drt_sc_derive"
+proc-macro = true

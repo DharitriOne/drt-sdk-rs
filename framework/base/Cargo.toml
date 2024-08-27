@@ -1,0 +1,39 @@
+[package]
+name = "drt-sc"
+version = "0.0.1"
+edition = "2021"
+rust-version = "1.78"
+
+authors = ["xfactor <xfactor.toml@gmail.com>", "DharitriOne <contact@dharitri.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/DharitriOne/drt-sdk-rs"
+homepage = "https://dharitri.com/"
+documentation = "https://docs.dharitri.com/"
+description = "DharitriOne smart contract API"
+keywords = ["dharitri", "wasm", "webassembly", "blockchain", "contract"]
+categories = ["no-std", "wasm", "cryptography::cryptocurrencies", "development-tools"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[features]
+num-bigint = ["drt-sc-codec/num-bigint"]
+alloc = []
+managed-buffer-builder-cached = []
+dct-token-payment-legacy-decode = []
+
+[dependencies]
+hex-literal = "=0.4.1"
+bitflags = "=2.6.0"
+num-traits = { version = "=0.2.19", default-features = false }
+unwrap-infallible = "0.1.5"
+
+[dependencies.drt-sc-derive]
+version = "=0.0.1"
+path = "../derive"
+
+[dependencies.drt-sc-codec]
+version = "=0.0.1"
+path = "../../data/codec"
+features = ["derive"]

@@ -1,0 +1,54 @@
+[package]
+name = "drt-sc-meta"
+version = "0.0.1"
+edition = "2021"
+
+authors = [
+    "xfactor <xfactor.toml@gmail.com>",
+    "DharitriOne <contact@dharitri.com>",
+]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/DharitriOne/drt-sdk-rs"
+homepage = "https://dharitri.com/"
+documentation = "https://docs.dharitri.com/"
+description = "DharitriOne smart contract crate management standalone tool"
+keywords = ["dharitri", "blockchain", "contract", "debug"]
+categories = ["cryptography::cryptocurrencies", "development-tools::debugging"]
+
+[[bin]]
+name = "sc-meta"
+path = "src/main.rs"
+
+[features]
+template-test-current = []
+template-test-released = []
+
+[dependencies]
+clap = { version = "4.4.7", features = ["derive"] }
+tokio = { version = "1.24", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = { version = "0.8.6", features = ["preserve_order"] }
+colored = "2.0"
+convert_case = "0.6.0"
+semver = "1.0.20"
+ruplacer = { version = "0.8.1", default-features = false }
+reqwest = { version = "0.12", features = ["blocking", "json"] }
+zip = { version = "2.1", features = ["deflate"], default-features = false }
+copy_dir =  "0.1.2" 
+pathdiff = "0.2.1" 
+common-path = "1.0.0" 
+
+[dependencies.drt-sc-meta-lib]
+version = "=0.0.1"
+path = "../meta-lib"
+
+[dependencies.drt-sc]
+version = "=0.0.1"
+path = "../base"
+features = ["alloc", "num-bigint"]
+
+[dependencies.drt-sc-snippets]
+version = "=0.0.1"
+path = "../snippets"

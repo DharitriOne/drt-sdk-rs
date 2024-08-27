@@ -1,0 +1,14 @@
+[package]
+name = "rust-snippets-generator-test-meta"
+version = "0.0.0"
+authors = ["xfactor <xfactor.toml@gmail.com>"]
+edition = "2021"
+publish = false
+
+[dependencies.rust-snippets-generator-test]
+path = ".."
+
+[dependencies.drt-sc-meta-lib]
+version = "0.0.1"
+path = "../../../../framework/meta-lib"
+default-features = false

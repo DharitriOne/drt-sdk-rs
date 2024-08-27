@@ -1,0 +1,20 @@
+[package]
+name = "dct-contract-pair"
+version = "0.0.0"
+authors = ["xfactor <xfactor.toml@gmail.com>"]
+edition = "2021"
+publish = false
+
+[dev-dependencies.first-contract]
+path = "first-contract"
+
+[dev-dependencies.second-contract]
+path = "second-contract"
+
+[dev-dependencies.drt-sc]
+version = "0.0.1"
+path = "../../../../framework/base"
+
+[dev-dependencies.drt-sc-scenario]
+version = "0.0.1"
+path = "../../../../framework/scenario"
