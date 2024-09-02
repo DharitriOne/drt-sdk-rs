@@ -1,0 +1,17 @@
+[package]
+name = "builtin-func-features"
+version = "0.0.0"
+authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/builtin_func_features.rs"
+
+[dependencies.drt-sc]
+version = "0.0.2"
+path = "../../../../framework/base"
+
+[dev-dependencies.drt-sc-scenario]
+version = "0.0.2"
+path = "../../../../framework/scenario"

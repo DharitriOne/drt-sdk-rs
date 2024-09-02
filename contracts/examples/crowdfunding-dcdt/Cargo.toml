@@ -1,0 +1,22 @@
+[package]
+name = "crowdfunding-dcdt"
+version = "0.0.0"
+authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/crowdfunding_dcdt.rs"
+
+[dependencies.drt-sc]
+version = "0.0.2"
+path = "../../../framework/base"
+
+[dev-dependencies.drt-sc-scenario]
+version = "0.0.2"
+path = "../../../framework/scenario"
+
+[dev-dependencies]
+num-bigint = "0.4"
+num-traits = "0.2"
+hex = "0.4"

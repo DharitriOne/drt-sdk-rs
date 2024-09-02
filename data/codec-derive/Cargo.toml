@@ -1,0 +1,27 @@
+[package]
+name = "drt-sc-codec-derive"
+version = "0.20.1"
+edition = "2021"
+
+authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/DharitriOne/drt-sdk-rs"
+homepage = "https://dharitri.com/"
+documentation = "https://docs.dharitri.com/"
+description = "Macro implementations of drt-sc-codec #[derive(NestedEncode, NestedDecode, TopEncode, TopDecode)]"
+keywords = ["dharitri", "wasm", "webassembly", "blockchain", "contract"]
+categories = ["no-std", "wasm", "cryptography::cryptocurrencies", "development-tools"]
+
+[lib]
+name = "drt_sc_codec_derive"
+proc-macro = true
+
+[features]
+default = ["syn/full", "syn/parsing", "syn/extra-traits"]
+
+[dependencies]
+proc-macro2 = "=1.0.86"
+quote = "=1.0.36"
+syn = "=2.0.72"
+hex = "=0.4.3"

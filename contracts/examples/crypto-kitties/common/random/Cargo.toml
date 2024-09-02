@@ -1,0 +1,12 @@
+[package]
+name = "random"
+version = "0.0.0"
+authors = [ "xfactor-toml <xfactor.toml@gmail.com>"]
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.drt-sc]
+version = "0.0.2"
+path = "../../../../../framework/base"

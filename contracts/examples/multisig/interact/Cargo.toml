@@ -1,0 +1,34 @@
+[package]
+name = "multisig-interact"
+version = "0.0.0"
+authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "multisig-interact"
+path = "src/multisig_interact.rs"
+
+[dependencies]
+clap = { version = "4.4.7", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8.6"
+
+[dependencies.multisig]
+path = ".."
+
+[dependencies.drt-sc-modules]
+version = "0.0.2"
+path = "../../../../contracts/modules"
+
+[dependencies.drt-sc-snippets]
+version = "0.0.2"
+path = "../../../../framework/snippets"
+
+[dependencies.drt-sc-scenario]
+version = "=0.0.2"
+path = "../../../../framework/scenario"
+
+[dependencies.drt-sc]
+version = "=0.0.2"
+path = "../../../../framework/base"

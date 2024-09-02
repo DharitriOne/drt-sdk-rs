@@ -1,0 +1,17 @@
+[package]
+name = "dcdt-system-sc-mock"
+version = "0.0.0"
+authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/dcdt_system_sc_mock.rs"
+
+[dependencies.drt-sc]
+version = "0.0.2"
+path = "../../../framework/base"
+
+[dev-dependencies.drt-sc-scenario]
+version = "0.0.2"
+path = "../../../framework/scenario"

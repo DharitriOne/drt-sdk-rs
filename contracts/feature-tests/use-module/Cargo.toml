@@ -1,0 +1,25 @@
+[package]
+name = "use-module"
+version = "0.0.0"
+authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/use_module.rs"
+
+[dependencies.drt-sc-modules]
+version = "0.0.2"
+path = "../../../contracts/modules"
+
+[dependencies.drt-sc]
+version = "0.0.2"
+path = "../../../framework/base"
+
+[dev-dependencies.drt-sc-scenario]
+version = "0.0.2"
+path = "../../../framework/scenario"
+
+[dev-dependencies.drt-sc-meta-lib]
+version = "0.0.2"
+path = "../../../framework/meta-lib"

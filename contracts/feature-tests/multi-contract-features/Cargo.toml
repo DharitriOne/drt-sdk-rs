@@ -1,0 +1,20 @@
+[package]
+name = "multi-contract-features"
+version = "0.0.0"
+authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/multi_contract_features.rs"
+
+[features]
+example_feature = []
+
+[dependencies.drt-sc]
+version = "0.0.2"
+path = "../../../framework/base"
+
+[dev-dependencies.drt-sc-scenario]
+version = "0.0.2"
+path = "../../../framework/scenario"

@@ -1,0 +1,35 @@
+[package]
+name = "drt-sdk"
+version = "0.5.0"
+edition = "2021"
+
+authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/DharitriOne/drt-sdk-rs"
+homepage = "https://dharitri.com/"
+documentation = "https://docs.dharitri.com/"
+description = "SDK for interacting with the Dharitri blockchain"
+categories = ["cryptography::cryptocurrencies", "api-bindings"]
+keywords = ["dharitri", "blockchain", "sdk", "api"]
+
+[dependencies]
+tokio = { version = "1.24", features = ["full"] }
+reqwest = { version = "0.12", features = ["blocking", "json"] }
+serde = { version = "1.0.130", features = ["derive"] }
+serde_json = { version = "1.0.68", features = ["preserve_order"] }
+serde_repr = "0.1.8"
+anyhow = "1.0.44"
+rand = "0.8.5"
+bip39 = { version = "2.0.0", features = ["rand"] }
+sha2 = "0.10.8"
+sha3 = "0.10.8"
+hmac = { version = "0.12.1", features = ["std"] }
+hex = "0.4.3"
+base64 = "0.22"
+pbkdf2 = { version = "0.12.2", default-features = false }
+zeroize = "1.4.2"
+bech32 = "0.9"
+itertools = "0.13.0"
+pem = "3.0.2"
+log = "0.4.17"

@@ -1,0 +1,21 @@
+[package]
+name = "drt-sc-modules"
+version = "0.0.2"
+edition = "2021"
+
+authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/DharitriOne/drt-sdk-rs"
+homepage = "https://dharitri.com/"
+documentation = "https://docs.dharitri.com/"
+description = "Dharitri WebAssembly standard smart contract modules"
+keywords = ["dharitri", "wasm", "webassembly", "blockchain", "contract"]
+categories = ["no-std", "wasm", "cryptography::cryptocurrencies"]
+
+[features]
+alloc = ["drt-sc/alloc"]
+
+[dependencies.drt-sc]
+version = "0.0.2"
+path = "../../framework/base"
