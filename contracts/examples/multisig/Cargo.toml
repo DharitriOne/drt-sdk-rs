@@ -9,15 +9,15 @@ publish = false
 path = "src/multisig.rs"
 
 [dependencies.drt-sc]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../framework/base"
 
 [dependencies.drt-sc-modules]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../contracts/modules"
 
 [dev-dependencies.drt-sc-scenario]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../framework/scenario"
 
 [dev-dependencies.adder]
@@ -27,7 +27,7 @@ path = "../adder"
 path = "../factorial"
 
 [dev-dependencies.drt-wrewa-swap-sc]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../core/wrewa-swap"
 
 [dev-dependencies]

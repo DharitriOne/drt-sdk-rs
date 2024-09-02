@@ -779,7 +779,7 @@ dependencies = [
 
 [[package]]
 name = "drt-chain-scenario-format"
-version = "0.22.3"
+version = "0.0.3"
 dependencies = [
  "bech32",
  "hex",
@@ -792,7 +792,7 @@ dependencies = [
 
 [[package]]
 name = "drt-chain-vm"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "bitflags 2.6.0",
  "colored",
@@ -817,7 +817,7 @@ checksum = "66d7c45c707836a0867f7dfbd217f2540fe74c52842a113e50d608fe4e927bd8"
 
 [[package]]
 name = "drt-price-aggregator-sc"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "arrayvec",
  "drt-sc",
@@ -838,7 +838,7 @@ dependencies = [
 
 [[package]]
 name = "drt-sc"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "bitflags 2.6.0",
  "drt-sc-codec",
@@ -850,7 +850,7 @@ dependencies = [
 
 [[package]]
 name = "drt-sc-codec"
-version = "0.20.1"
+version = "0.0.3"
 dependencies = [
  "arrayvec",
  "drt-sc-codec-derive",
@@ -860,7 +860,7 @@ dependencies = [
 
 [[package]]
 name = "drt-sc-codec-derive"
-version = "0.20.1"
+version = "0.0.3"
 dependencies = [
  "hex",
  "proc-macro2",
@@ -870,7 +870,7 @@ dependencies = [
 
 [[package]]
 name = "drt-sc-derive"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "hex",
  "proc-macro2",
@@ -881,7 +881,7 @@ dependencies = [
 
 [[package]]
 name = "drt-sc-meta"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "clap",
  "colored",
@@ -904,7 +904,7 @@ dependencies = [
 
 [[package]]
 name = "drt-sc-meta-lib"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "clap",
  "colored",
@@ -923,14 +923,14 @@ dependencies = [
 
 [[package]]
 name = "drt-sc-modules"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "drt-sc",
 ]
 
 [[package]]
 name = "drt-sc-scenario"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "base64",
  "bech32",
@@ -954,7 +954,7 @@ dependencies = [
 
 [[package]]
 name = "drt-sc-snippets"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "base64",
  "drt-chain-scenario-format",
@@ -970,14 +970,14 @@ dependencies = [
 
 [[package]]
 name = "drt-sc-wasm-adapter"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "drt-sc",
 ]
 
 [[package]]
 name = "drt-sdk"
-version = "0.5.0"
+version = "0.0.3"
 dependencies = [
  "anyhow",
  "base64",
@@ -1002,7 +1002,7 @@ dependencies = [
 
 [[package]]
 name = "drt-wrewa-swap-sc"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "drt-sc",
  "drt-sc-modules",
@@ -2467,7 +2467,7 @@ checksum = "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184"
 
 [[package]]
 name = "ping-pong-rewa"
-version = "0.0.2"
+version = "0.0.3"
 dependencies = [
  "drt-sc",
  "drt-sc-scenario",

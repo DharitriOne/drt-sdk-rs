@@ -1,6 +1,6 @@
 [package]
 name = "drt-sc-modules"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2021"
 
 authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
@@ -17,5 +17,5 @@ categories = ["no-std", "wasm", "cryptography::cryptocurrencies"]
 alloc = ["drt-sc/alloc"]
 
 [dependencies.drt-sc]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../framework/base"

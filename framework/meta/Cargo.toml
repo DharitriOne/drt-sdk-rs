@@ -1,6 +1,6 @@
 [package]
 name = "drt-sc-meta"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2021"
 
 authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
@@ -38,14 +38,14 @@ pathdiff = "0.2.1"
 common-path = "1.0.0" 
 
 [dependencies.drt-sc-meta-lib]
-version = "=0.0.2"
+version = "=0.0.3"
 path = "../meta-lib"
 
 [dependencies.drt-sc]
-version = "=0.0.2"
+version = "=0.0.3"
 path = "../base"
 features = ["alloc", "num-bigint"]
 
 [dependencies.drt-sc-snippets]
-version = "=0.0.2"
+version = "=0.0.3"
 path = "../snippets"

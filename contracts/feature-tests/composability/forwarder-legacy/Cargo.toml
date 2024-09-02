@@ -12,10 +12,10 @@ path = "src/forwarder_legacy_main.rs"
 path = "../vault"
 
 [dependencies.drt-sc]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../../framework/base"
 
 [dev-dependencies.drt-sc-scenario]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../../framework/scenario"
 

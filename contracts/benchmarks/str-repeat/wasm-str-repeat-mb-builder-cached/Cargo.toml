@@ -29,7 +29,7 @@ path = ".."
 features = ["managed-buffer-builder-cached"]
 
 [dependencies.drt-sc-wasm-adapter]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../../framework/wasm-adapter"
 
 [workspace]

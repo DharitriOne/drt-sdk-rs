@@ -1,6 +1,6 @@
 [package]
 name = "drt-sc-codec"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2021"
 
 authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
@@ -18,7 +18,7 @@ derive = ["drt-sc-codec-derive"]
 
 [dependencies.drt-sc-codec-derive]
 path = "../codec-derive"
-version = "=0.20.1"
+version = "=0.0.3"
 optional = true
 
 [dependencies]
@@ -28,4 +28,4 @@ unwrap-infallible = "0.1.5"
 
 [dev-dependencies.drt-sc-codec-derive]
 path = "../codec-derive"
-version = "=0.20.1"
+version = "=0.0.3"

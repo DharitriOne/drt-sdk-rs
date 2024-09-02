@@ -12,10 +12,10 @@ path = "src/str_repeat.rs"
 managed-buffer-builder-cached = ["drt-sc/managed-buffer-builder-cached"]
 
 [dependencies.drt-sc]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../framework/base"
 features = ["alloc"]
 
 [dev-dependencies.drt-sc-scenario]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../framework/scenario"

@@ -9,14 +9,14 @@ publish = false
 path = "src/forwarder_queue.rs"
 
 [dependencies.drt-sc]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../../framework/base"
 
 [dependencies.drt-sc-wasm-adapter]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../../framework/wasm-adapter"
 optional = true
 
 [dev-dependencies.drt-sc-scenario]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../../framework/scenario"

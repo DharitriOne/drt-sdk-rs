@@ -21,11 +21,11 @@ plotters-canvas = "^0.3.0"
 lto = true
 
 [dependencies.drt-sc]
-version = "=0.0.2"
+version = "=0.0.3"
 path = "../../framework/base"
 
 [dependencies.drt-sc-scenario]
-version = "=0.0.2"
+version = "=0.0.3"
 path = "../../framework/scenario"
 default-features = false
 

@@ -12,13 +12,13 @@ path = "src/lib.rs"
 path = "../vault"
 
 [dependencies.drt-sc]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../../framework/base"
 
 [dependencies.drt-sc-modules]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../../contracts/modules"
 
 [dev-dependencies.drt-sc-scenario]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../../framework/scenario"

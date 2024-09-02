@@ -1,6 +1,6 @@
 [package]
 name = "drt-sc-meta-lib"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2021"
 
 authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
@@ -28,6 +28,6 @@ wasmprinter = "0.214"
 semver = "1.0.20"
 
 [dependencies.drt-sc]
-version = "=0.0.2"
+version = "=0.0.3"
 path = "../base"
 features = ["alloc", "num-bigint"]

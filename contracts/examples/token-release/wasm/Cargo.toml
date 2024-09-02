@@ -28,7 +28,7 @@ panic = "abort"
 path = ".."
 
 [dependencies.drt-sc-wasm-adapter]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../../framework/wasm-adapter"
 
 [workspace]

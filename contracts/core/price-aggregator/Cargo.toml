@@ -1,6 +1,6 @@
 [package]
 name = "drt-price-aggregator-sc"
-version = "0.0.2"
+version = "0.0.3"
 authors = ["xfactor-toml <xfactor.toml@gmail.com>"]
 license = "GPL-3.0-only"
 readme = "README.md"
@@ -16,15 +16,15 @@ edition = "2021"
 path = "src/lib.rs"
 
 [dependencies.drt-sc]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../framework/base"
 
 [dependencies.drt-sc-modules]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../contracts/modules"
 
 [dev-dependencies.drt-sc-scenario]
-version = "0.0.2"
+version = "0.0.3"
 path = "../../../framework/scenario"
 
 [dependencies]

@@ -13,7 +13,7 @@ drt_sc::derive_imports!();
 
 // Additionally, we also have to update the interactor snippets manually to add relative paths:
 // [dependencies.drt-sc-snippets]
-// version = "0.0.2"
+// version = "0.0.3"
 // path = "../../../../framework/snippets"
 
 #[derive(
