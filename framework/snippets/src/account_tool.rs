@@ -96,7 +96,7 @@ fn set_account(
 fn convert_storage(account_storage: HashMap<String, String>) -> BTreeMap<BytesKey, BytesValue> {
     account_storage
         .into_iter()
-        .filter(|(k, _)| !k.starts_with("454c524f4e44"))
+        .filter(|(k, _)| !k.starts_with("4e554d424154"))
         .map(|(k, v)| (BytesKey::from(k.as_str()), BytesValue::from(v)))
         .collect()
 }
